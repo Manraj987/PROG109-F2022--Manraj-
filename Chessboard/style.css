@@ -1,4 +1,3 @@
-
 .header {
    padding: px;
   margin-left: -20px;
@@ -26,7 +25,7 @@ p {
 }
 .white{
  border: 1px solid black;
- width: 10%;
+ width: 12%;
  height: 60px;
  background-color:white;
  float:left;
@@ -34,7 +33,7 @@ p {
  
 .black{
  border: 1px solid black;
- width: 10%;
+ width: 12%;
  height: 60px;
  background-color:#787878;
  float:left;
@@ -42,3 +41,11 @@ p {
 body {
  background-image:url("https://t4.ftcdn.net/jpg/04/53/81/05/360_F_453810576_0TuCFTlEPxaQ4sx2eqOzKDlFyIZc3BF9.jpg");
 }
+
+img {
+ margin-left: 10px;
+ margin-top:20px;
+ }
+.footer {
+ 
+ background-color:#FF0000;
