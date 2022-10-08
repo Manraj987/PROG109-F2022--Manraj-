@@ -1,1 +1,44 @@
 
+.header {
+   padding: px;
+  margin-left: -20px;
+  margin-right: -20px;
+  margin-top: -40px;
+  text-align: center;
+  background: #FF0000;
+  color: white;
+  font-size: 30px;
+     font-family: 'OxygenSansSansBold';
+   font-weight: bold;
+  font-style: normal;}
+
+p {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:1px;
+}
+
+.row{
+ position:relative;
+ margin-left:10%;
+ margin-right:10%;
+}
+.white{
+ border: 1px solid black;
+ width: 10%;
+ height: 60px;
+ background-color:white;
+ float:left;
+}
+ 
+.black{
+ border: 1px solid black;
+ width: 10%;
+ height: 60px;
+ background-color:#787878;
+ float:left;
+}
+body {
+ background-image:url("https://t4.ftcdn.net/jpg/04/53/81/05/360_F_453810576_0TuCFTlEPxaQ4sx2eqOzKDlFyIZc3BF9.jpg");
+}
