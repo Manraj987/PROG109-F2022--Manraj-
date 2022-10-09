@@ -47,5 +47,6 @@ img {
  margin-top:20px;
  }
 .footer {
- 
+ margin-left: -20px;
+  margin-right: -20px;
  background-color:#FF0000;
