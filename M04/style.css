@@ -1,1 +1,56 @@
+* {
+				font-family: Arial, Verdana, sans-serif;
+				color:white;
+				text-align: center;}
+			body {
+				width: 90%;
+				margin: 0 auto;}
+			#content {
+				overflow: auto;}
+			#nav, #feature, #footer {
+				margin: 1%;}
+			.column1, .column2, .column3 {
+				width: 31.3%;
+				float: left;
+				margin: 1%;}
+			.column3 {
+				margin-right: 0%;}
+			li {
+				display: inline;
+				padding: 0.5em;}
+			#nav, #footer {
+				background-color: #C38DE5;
+				padding: 0.5em 0;}
+			#feature {
+				height: 10em;
+				margin-bottom: 1em;
+				background-color: #FF7ACF;
+                background-image: url("clipart20561.png");
+                background-size:contain;
+                background-position: right;
+                background-repeat:no-repeat;}
+             .column1{
+               height: 10em;
+				margin-bottom: 1em;
+				background-color: #56D6D2;}
 
+             .column2{
+               height: 10em;
+				margin-bottom: 1em;
+				background-color: #3F73FF;
+                color:#FFFFFF;}
+
+              .column3{
+               height: 10em;
+				margin-bottom: 1em;
+				background-color: #010A97;}
+
+                body {
+                background-image:url("https://img.freepik.com/premium-vector/pink-purple-blue-pastel-ombre-digital-paper-watercolor-gradient-watercolour-background-texture_199112-610.jpg?w=2000");
+  background-size: 1000px}
+
+                H1{
+   font-family: 'GrotesqueBourgeoisieRegular';
+   font-weight: normal;
+   font-style: normal;                  
+}
