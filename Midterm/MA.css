@@ -40,3 +40,15 @@
    font-size: 50px;
    text-align: center;
 }
+.body1{ text-align:center;
+                padding-left: 5%;
+                padding-right: 5%;
+                padding-top:2%;
+                padding-bottom:2%;
+                border-style:solid;
+                background-color: #FF7ACF;
+                                float:left;
+                width: 35%;
+				float: left;
+				margin: 2%;
+                }
