@@ -54,3 +54,9 @@
                 }
 #bb{Background-color:#FF7ACF;
   border-style:solid;}
+
+#body1{ text-align:center;
+                padding-left: 5%;
+                padding-right: 5%;
+                border-style:solid;
+	background-color: #FF7ACF}
