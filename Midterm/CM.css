@@ -42,3 +42,14 @@
 }
 #bb{Background-color:#FF7ACF;
   border-style:solid;}
+form {
+  /* Center the form on the page */
+  margin: 0 auto;
+  width: 400px;
+  /* Form outline */
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+  text-align: center;
+  font-size:23
+}
