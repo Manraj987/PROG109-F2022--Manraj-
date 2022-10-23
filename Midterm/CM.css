@@ -1,6 +1,6 @@
 * {
 				font-family: Arial, Verdana, sans-serif;
-				color:white;
+				
 				}
 		
             .nav {
@@ -12,12 +12,14 @@
                 padding-top:40px;
                 float:left;
                 padding-left:30px;
+		color:white;
                 }
              a {
                 font-family: 'ToscuchetCMRegular';
                 font-weight: normal;
                 font-style: normal;
                 font-size:20px;
+		 color:white;
                             }
 			#feature {
 				height: 10em;
@@ -26,7 +28,8 @@
                 background-image: url("clipart20561.png");
                 background-size:contain;
                 background-position: right;
-                background-repeat:no-repeat;}
+                background-repeat:no-repeat;
+color:white;}
              
 
                 body {
@@ -39,6 +42,7 @@
    font-style: normal;
    font-size: 50px;
    text-align: center;
+			color:white;
 }
 #bb{Background-color:#FF7ACF;
   border-style:solid;}
@@ -48,7 +52,8 @@ form {
   width: 1000px;
   /* Form outline */
   padding: 1em;
- 
+   color: Black; 
   text-align: center;
   font-size:23px
+	  color:black;
 }
