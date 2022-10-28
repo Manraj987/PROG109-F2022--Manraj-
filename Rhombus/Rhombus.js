@@ -17,7 +17,7 @@ rLine +="<p>";
   //Add Blanks 
   for(x=1; x<=pHeight-i;x++){
     //rLine +="-";
-    rLine +="<span class="space">" + pSymbol +"</span>";
+    rLine +="<span class='space'>" + pSymbol +"</span>";
   }
 //Create each line on the Rhombus
 for(j=0;j<i;j++){
@@ -47,7 +47,7 @@ rLine +="<p>";
  //Fill in the left side of every row with spaces/blanks
   for(x=1; x<=pHeight-i;x++){
     //rLine +="-";
-    rLine +="<span class="space">" + pSymbol +"</span>";
+    rLine +="<span class='space'>" + pSymbol +"</span>";
   }
   
 //Create each line on the Rhombus
