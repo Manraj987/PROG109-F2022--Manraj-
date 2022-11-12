@@ -1,5 +1,5 @@
 function isValid() {
- if (!FirstName() ||
+ if (!firstName() ||
       !LastName() ||
       !Email()    ||
       !Phone()    ||
@@ -19,7 +19,7 @@ function isValid() {
 FirstName.addEventListener('blur', firstName, false);
    var validFirstname=false;
 
-function FirstName(){
+function firstName(){
    //1) Create variable
    //2) read value from HTML
    var firstname = document.getElementById("FirstName").value;
