@@ -6,7 +6,7 @@ function Valid() {
       !Username()   ||
       !Password()   ||
       !Address()    ||
-      !City()    ||
+      City()    ||
       !State()    ||
       !Zip()    ||
       !Country()) {
