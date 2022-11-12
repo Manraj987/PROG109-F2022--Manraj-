@@ -16,7 +16,7 @@ function Valid() {
    return false;
 }
  
-FirstName.addEventListener('blur', firstName, false);
+//FirstName.addEventListener('blur', firstName, false);
    var validFirstname=false;
 
 function firstName(){
