@@ -18,7 +18,7 @@ function isValid() {
  
 FirstName.addEventListener('blur', firstName, false);
    var validFirstname=false;
-​
+
 function firstName(){
    //1) Create variable
    //2) read value from HTML
