@@ -6,7 +6,7 @@ function isValid() {
       !Username()   ||
       !Password()   ||
       !Address()    ||
-      !City()    ||
+      !city()    ||
       !State()    ||
       !Zip()    ||
       !Country()) {
@@ -160,18 +160,23 @@ document.getElementById("fname").innerHTML = errorMessages;
 }
 
 
-function City(){
+
+
+
+function city(){
 //1) Create variable
-var validcity=false;
+var validcity1=false;
 //2) read value from HTML
-var city = document.getElementById("City").value;
+var City = document.getElementById("city").value;
 var errorMessages = "";
 //3) Do validation
-if (address==="null" || address==="") {
+if (City==="null" || City==="") {
        errorMessages += "<p>required city</p>";
          } 
-  else
-      return true
+  else {
+               validcity1 = true;
+               
+       }
 //4) Send error message to HMTL
 document.getElementById("fname").innerHTML = errorMessages;
 }
@@ -181,7 +186,7 @@ function State(){
 //1) Create variable
 var validstate=false;
 //2) read value from HTML
-var state = document.getElementById("City").value;
+var state = document.getElementById("State").value;
 var errorMessages = "";
 //3) Do validation
 if (state==="null" || state==="") {
@@ -197,7 +202,7 @@ function Zip(){
 //1) Create variable
 var validzip=false;
 //2) read value from HTML
-var zip = document.getElementById("City").value;
+var zip = document.getElementById("ZipCode").value;
 var errorMessages = "";
 //3) Do validation
 if (zip==="null" || zip===""|| password.length > 5) {
@@ -210,7 +215,7 @@ if (zip==="null" || zip===""|| password.length > 5) {
 document.getElementById("fname").innerHTML = errorMessages;
 }
 function Country(){
-var country = document.getElementById("country").value;
+var country = document.getElementById("Country").value;
 if (country === "USA"){
 // validate Zipcode according to the rules
  } else {
