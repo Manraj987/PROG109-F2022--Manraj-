@@ -1,12 +1,12 @@
 function isValid() {
- if (!firstName() ||
+ if (!FirstName() ||
       !LastName() ||
       !Email()    ||
       !Phone()    ||
       !Username()   ||
       !Password()   ||
       !Address()    ||
-      !city()    ||
+      !City()    ||
       !State()    ||
       !Zip()    ||
       !Country()) {
@@ -19,7 +19,7 @@ function isValid() {
 FirstName.addEventListener('blur', firstName, false);
    var validFirstname=false;
 
-function firstName(){
+function FirstName(){
    //1) Create variable
    //2) read value from HTML
    var firstname = document.getElementById("FirstName").value;
@@ -163,22 +163,26 @@ document.getElementById("fname").innerHTML = errorMessages;
 
 
 
-function city(){
+function City(){
 //1) Create variable
 var validcity1=false;
 //2) read value from HTML
 var City = document.getElementById("city").value;
 var errorMessages = "";
+ console.log("Inside City()", City);
 //3) Do validation
 if (City==="null" || City==="") {
+ console.log("inside if city===");
        errorMessages += "<p>required city</p>";
          } 
   else {
-               validcity1 = true;
+   console.log("if ciity === - else");
+   validcity1 = true;
                
        }
 //4) Send error message to HMTL
 document.getElementById("fname").innerHTML = errorMessages;
+ console.log("at end of City()");
 }
 
 
