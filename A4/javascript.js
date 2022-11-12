@@ -6,7 +6,7 @@ function Valid() {
       !Username()   ||
       !Password()   ||
       !Address()    ||
-      City()    ||
+      !City()    ||
       !State()    ||
       !Zip()    ||
       !Country()) {
@@ -164,19 +164,18 @@ document.getElementById("fname").innerHTML = errorMessages;
 
 
 function City(){
-//1) Create variable
+console.log(city);
+ //1) Create variable
 var validcity1=false;
 //2) read value from HTML
 var City = document.getElementById("city").value;
+ console.log(City)
 var errorMessages = "";
- console.log("Inside City()", City);
 //3) Do validation
 if (City==="null" || City==="") {
- console.log("inside if city===");
        errorMessages += "<p>required city</p>";
          } 
   else {
-   console.log("if ciity === - else");
    validcity1 = true;
                
        }
