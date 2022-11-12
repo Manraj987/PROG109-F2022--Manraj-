@@ -1,4 +1,4 @@
-function isValid() {
+function Valid() {
  if (!firstName() ||
       !LastName() ||
       !Email()    ||
