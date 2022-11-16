@@ -43,7 +43,6 @@ if (document.getElementById("auto").checked)
  next(); 
 }
 
-nextButton.addEventListener("click",next,false); 
 previousButton.addEventListener("click",back,false); 
 
 setInterval(autoSlide,2000); // Next
