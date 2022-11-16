@@ -36,8 +36,6 @@ function back(){
 var nextButton = document.getElementById("next"); 
 var previousButton = document.getElementById("previous"); 
 
-nextButton.addEventListener("click",next,false); 
-previousButton.addEventListener("click",back,false); 
 
 
 function autoSlide(){
@@ -45,5 +43,7 @@ if (document.getElementById("auto").checked)
  next(); 
 }
 
+nextButton.addEventListener("click",next,false); 
+previousButton.addEventListener("click",back,false); 
 
 setInterval(autoSlide,2000); // Next
