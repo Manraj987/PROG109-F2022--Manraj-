@@ -16,25 +16,26 @@ var captionImages =["Geno smith"," Tyler Lockett","Dk Metcalf","Keaneth Waler II
 } 
 
 function next(){
- if (myImages.length == index+1)
+ if (myImages.length == index+1){
  index=0;
- else
- index++;
+ }else
+ {index++;
  updateImage();
+ }
 } 
  
 
 function back(){
- if (index===0)
+ if (index===0){
  index=myImages.length-1;
- else
+ }else{
  index--;
  
- updateImage();
-} 
+ updateImage();}
+}
 
 var nextButton = document.getElementById("next"); 
-var previousButton = document.getElementById("previous"); 
+var previousButton = document.getElementById("previous");
 
 previousButton.addEventListener("click",previous,false);
 
@@ -43,7 +44,7 @@ nextButton.addEventListener("click",next,false);
 
 function autoSlide(){
 if (document.getElementById("auto").checked)
- next(); 
+{next(); }
 }
 
 
