@@ -1,1 +1,30 @@
+* {
+    text-align: center;
+    margin-left:20px;
+    margin-right:20px;
+    background-color:#f3fafd
+}
+ 
+#caption {
+  text-align: center;
+  font-size :23px;
+  
+}
+
+H1{
+  border-style: solid;
+  border-left: ;
+   background-color:#45b3e0
+}
+#previous {
+  background-color:#45b3e0
+}
+
+#next {
+  background-color:#45b3e0
+}
+#auto {
+  font-size:23px; 
+  
+}
 
