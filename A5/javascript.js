@@ -36,7 +36,7 @@ function back(){
 var nextButton = document.getElementById("next"); 
 var previousButton = document.getElementById("previous"); 
 
-previousButton.addEventListener("click",back,false);
+previousButton.addEventListener("click",previous,false);
 
 nextButton.addEventListener("click",next,false); 
 
