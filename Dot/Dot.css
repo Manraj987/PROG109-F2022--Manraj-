@@ -1,0 +1,24 @@
+  body {
+    height: 200px;
+      }
+  .dot {
+    height: 8px; width: 8px;
+    border-radius: 4px; /* rounds corners */
+    background: red;
+    position: absolute;
+  }
+h1 {
+  color:white;
+  font-size:40;
+  text-align:Center;
+  border-style:solid;
+  border-color:Black;
+  background:red
+}
+#clear{
+  background-color:red;
+  color:white;
+  border-color:Black;
+  padding: 7px 20px;
+  font-size:14;
+}
