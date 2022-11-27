@@ -4,13 +4,6 @@ function Valid() {
       
       !Username()
     )
-
-    
-
- return true;
-    else
-        document.getElementById("submiterror").innerHTML = "<p><strong>Error Submitting — See Above</strong></p>";
-        event.preventDefault();
         return false;
 }
 
