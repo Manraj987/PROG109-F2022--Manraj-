@@ -2,6 +2,12 @@
 				font-family: Arial, Verdana, sans-serif;
 				color:white;
 				}
+#bb{Background-color:#FF7ACF;
+  border-style:solid;}
+
+#ty{background-color:#FF7ACF;
+   border-style:solid;
+    text-align: center}
 		
             .nav {
 				margin: 1%;
@@ -40,9 +46,4 @@
    font-size: 50px;
    text-align: center;
 }
-#bb{Background-color:#FF7ACF;
-  border-style:solid;}
 
-#ty{background-color:#FF7ACF;
-   border-style:solid;
-    text-align: center}
