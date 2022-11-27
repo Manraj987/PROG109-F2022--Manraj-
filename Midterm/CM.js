@@ -3,10 +3,9 @@ function Valid() {
       !Email()    ||
       
       !Username()) {
-   return errorMessages.length === 0;
+   return true
  }
- else
-   return false;
+
 }
  
 //FirstName.addEventListener('blur', firstName, false);
