@@ -3,7 +3,8 @@ function Valid() {
       !Email()    ||
       
       !Username()) {
- return true
+
+    
  }
  else
    return false;
