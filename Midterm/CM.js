@@ -3,9 +3,10 @@ function Valid() {
       !Email()    ||
       
       !Username()) {
-   return true
+ return true
  }
-
+ else
+   return false;
 }
  
 //FirstName.addEventListener('blur', firstName, false);
