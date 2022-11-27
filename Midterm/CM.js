@@ -62,7 +62,7 @@ var username = document.getElementById("Username").value;
 var errorMessages = "";
 //3) Do validation
 if (username==="null" || username==="" || username.length > 12 ) {
-       errorMessages += "<p>not vaild Username</p>";
+       errorMessages += "<p>not vaild Comment</p>";
              } 
   else
       return true
