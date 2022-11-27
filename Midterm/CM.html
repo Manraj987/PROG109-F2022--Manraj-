@@ -20,20 +20,40 @@
                     <div class="nav"> <a href="https://manraj987.github.io/PROG109-F2022--Manraj-/Midterm/CM.html">Contact me</a></div>
                     <div class="nav"><a href="https://manraj987.github.io/PROG109-F2022--Manraj-/Midterm/OCP.html">"Own" creative page</a></div>
 		<div id="bb">
-          <H1 style="color:#FF7ACF">.</h1>
-          </div>
-      <br>		
-	<form action="Thanku.html" method="get"
-name="myContact">
-   
-  <label for="name">Name:</label><br>
-  <input type="text" id="name" name="fname"><br>
-  <label for="email">Email:</label><br>
-  <input type="text" id="email" name="lname"><br>
-  <label for="comment">Comments:</label><br>
-  <input type="text" id="comment" name="fname"><br>
-  <br> <button type="submit">Send your message</button><br>
-</form>		
-		
-	</body>
+        <body>
+        <form id="myform" action="ty.html" method="get" onsubmit="return Valid()">
+       
+          
+          <p>
+                <label for='FirstName'>Name:</label>
+              <br>
+                <input type="text" id="FirstName" name="FirstName" />
+            </p>
+          
+           <p>
+                <label for='Email'>Email:</label> 
+             <br>
+                <input type="text" id="Email" name="Email" />
+            </p>
+           <p>
+                
+                <label for='Username'>Username:</label>
+             <br>
+                <input type="text" id="Username" name="Username" />
+            </p>
+ 
+ 
+            <div class="warning" id="fname"></div>
+            
+            <p>
+                <input type="submit" id="submit" name="submit" value="Submit">
+            </p>
+        
+            <div class="warning" id="submiterror"></div>
+            <div id="errorMessages"></div>
+        </form>
+
+         
+              <script src="CM.js"></script>
+    </body>
 </html>
