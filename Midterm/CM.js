@@ -2,13 +2,18 @@ function Valid() {
  if (!firstName() ||
       !Email()    ||
       
-      !Username()) {
+      !Username()
+    )
 
     
- }
- else
-   return false;
+
+ return true;
+    else
+        document.getElementById("submiterror").innerHTML = "<p><strong>Error Submitting — See Above</strong></p>";
+        event.preventDefault();
+        return false;
 }
+
  
 //FirstName.addEventListener('blur', firstName, false);
    var validFirstname=false;
