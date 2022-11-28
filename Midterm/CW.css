@@ -61,5 +61,6 @@
                 border-style:solid;
 	background-color: #FF7ACF}
 p{
-  font-size:20px
+  font-size:20px;
+	font-weight: bold;
 }
