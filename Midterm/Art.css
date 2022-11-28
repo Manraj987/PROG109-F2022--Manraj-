@@ -33,6 +33,8 @@
                 background-image:url("https://img.freepik.com/premium-vector/pink-purple-blue-pastel-ombre-digital-paper-watercolor-gradient-watercolour-background-texture_199112-610.jpg?w=2000");
   background-size: 2000px 2000px;}
 
+
+
                 H1{
    font-family: 'ToscuchetCMRegular'; 
    font-weight: normal;
@@ -48,3 +50,9 @@
                 }
 #bb{Background-color:#FF7ACF;
   border-style:solid;}
+
+p{
+  font-size:20px
+}
+
+
