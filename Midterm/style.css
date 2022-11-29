@@ -12,7 +12,13 @@
                 padding-top:40px;
                 float:left;
                 padding-left:30px;
+               
                 }
+.nav:hover {
+        background-color: grey;
+        transition: 0.2s;
+ 
+      }
              a {
                 font-family: 'ToscuchetCMRegular';
                 font-weight: normal;
