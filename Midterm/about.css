@@ -1,11 +1,11 @@
 * {
 				font-family: Arial, Verdana, sans-serif;
-				color:white;
+				color:black;
 				}
 		
             .nav {
 				margin: 1%;
-				background-color: #C38DE5;
+				background-color: #f2f1ed;
 				padding: 0.5em 0;
                 width: 160px;
                 height:50px;
@@ -13,6 +13,11 @@
                 float:left;
                 padding-left:30px;
                 }
+.nav:hover {
+        background-color: grey;
+        transition: 0.2s;
+ 
+      }
              a {
                 font-family: 'ToscuchetCMRegular';
                 font-weight: normal;
@@ -30,7 +35,7 @@
              
 
                 body {
-                background-image:url("https://img.freepik.com/premium-vector/pink-purple-blue-pastel-ombre-digital-paper-watercolor-gradient-watercolour-background-texture_199112-610.jpg?w=2000");
+                background-image:url("https://files.123freevectors.com/wp-content/original/162739-grey-and-white-water-color-background.jpg");
   background-size: 2000px 2000px;}
 
                 H1{
@@ -44,15 +49,15 @@
                 padding-left: 5%;
                 padding-right: 5%;
                 border-style:solid;
-                background-color: #FF7ACF;
+                background-color: #000000;
                 }
             #body2{ text-align:center;
                 padding-left: 5%;
                 padding-right: 5%;
                 border-style:solid;
-                background-color: #FF7ACF ;
+                background-color: #000000;
                 }
-#bb{Background-color:#FF7ACF;
+#bb{Background-color:#000000;
   border-style:solid;}
 p{
   font-size:20px
