@@ -1,28 +1,53 @@
-* {
-				font-family: Arial, Verdana, sans-serif;
-				color:black;
-				}
-		
-            .nav {
-				margin: 1%;
-				background-color: #f2f1ed;
-				padding: 0.5em 0;
-                width: 160px;
-                height:50px;
-                padding-top:40px;
-                float:left;
-                padding-left:30px;
-                }
-.nav:hover {
-        background-color: grey;
+body {
+                background-image:url("https://files.123freevectors.com/wp-content/original/162739-grey-and-white-water-color-background.jpg");
+  background-size: 2000px 2000px;}
+
+header{
+  background-color:black;
+  margin-left: -8px;
+  margin-right: -8px;
+  margin-top: -8px;
+}
+nav ul{
+  list-style:none;
+  
+}
+nav li{
+  display:inline-block;
+  margin-right: 50px;
+  text-align:center;
+}
+#nav1{
+    margin-top:10px;
+  margin-bottom:20px;
+   padding-top:20px;
+  margin-left:60px;
+  
+}
+#nav2{
+  
+  margin-bottom:10px;
+  padding-bottom:30px;
+  margin-left:60px;
+}
+nav a{
+  text-decoration:none;
+  color:white;
+}
+nav a:hover {
+       color: grey;
         transition: 0.2s;
  
       }
-             a {
+#photo{
+  float:right
+}
+
+ a {
                 font-family: 'ToscuchetCMRegular';
                 font-weight: normal;
                 font-style: normal;
-                font-size:20px;
+                
                             }
 			#feature {
 				height: 10em;
@@ -32,13 +57,8 @@
                 background-size:contain;
                 background-position: right;
                 background-repeat:no-repeat;}
-             
 
-                body {
-                background-image:url("https://files.123freevectors.com/wp-content/original/162739-grey-and-white-water-color-background.jpg");
-  background-size: 2000px 2000px;}
-
-                H1{
+H1{
    font-family: 'ToscuchetCMRegular'; 
    font-weight: normal;
    font-style: normal;
@@ -50,19 +70,16 @@
                 padding-right: 5%;
                 border-style:solid;
                 background-color: #000000;
+               color:white
                 }
             #body2{ text-align:center;
                 padding-left: 5%;
                 padding-right: 5%;
                 border-style:solid;
                 background-color: #000000;
-                }
-#bb{Background-color:#000000;
-  border-style:solid;}
+                color:white
+}
 p{
   font-size:20px;
 	color:white
-}
-li{
-  color:white
 }
