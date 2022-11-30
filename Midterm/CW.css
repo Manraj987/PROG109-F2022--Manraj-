@@ -1,23 +1,58 @@
+
 * {
 				font-family: Arial, Verdana, sans-serif;
 				color:white;
 				}
-		
-            .nav {
-				margin: 1%;
-				background-color: #C38DE5;
-				padding: 0.5em 0;
-                width: 160px;
-                height:50px;
-                padding-top:40px;
-                float:left;
-                padding-left:30px;
-                }
-             a {
+body {
+                background-image:url("https://files.123freevectors.com/wp-content/original/162739-grey-and-white-water-color-background.jpg");
+  background-size: 2000px 2000px;}
+
+header{
+  background-color:black;
+  margin-left: -8px;
+  margin-right: -8px;
+  margin-top: -8px;
+}
+nav ul{
+  list-style:none;
+  
+}
+nav li{
+  display:inline-block;
+  margin-right: 50px;
+  text-align:center;
+}
+#nav1{
+    margin-top:10px;
+  margin-bottom:20px;
+   padding-top:20px;
+  margin-left:60px;
+  
+}
+#nav2{
+  
+  margin-bottom:10px;
+  padding-bottom:30px;
+  margin-left:60px;
+}
+nav a{
+  text-decoration:none;
+  color:white;
+}
+nav a:hover {
+       color: grey;
+        transition: 0.2s;
+ 
+      }
+#photo{
+  float:right
+}
+
+ a {
                 font-family: 'ToscuchetCMRegular';
                 font-weight: normal;
                 font-style: normal;
-                font-size:20px;
+                
                             }
 			#feature {
 				height: 10em;
@@ -27,40 +62,37 @@
                 background-size:contain;
                 background-position: right;
                 background-repeat:no-repeat;}
-             
 
-                body {
-                background-image:url("https://img.freepik.com/premium-vector/pink-purple-blue-pastel-ombre-digital-paper-watercolor-gradient-watercolour-background-texture_199112-610.jpg?w=2000");
-  background-size: 2000px 2000px;}
-
-                H1{
+H1{
    font-family: 'ToscuchetCMRegular'; 
    font-weight: normal;
    font-style: normal;
    font-size: 50px;
    text-align: center;
+  color:black;
 }
-            #body2L{ text-align:center;
-                padding-left: 5%;
-                padding-right: 5%;
-                border-style:solid;
-                background-color: #FF7ACF ;
-                }
-             #body2R{ text-align:center;
-                padding-left: 5%;
-                padding-right: 5%;
-                border-style:solid;
-                background-color: #FF7ACF ;
-                }
-#bb{Background-color:#FF7ACF;
-  border-style:solid;}
-
 #body1{ text-align:center;
                 padding-left: 5%;
                 padding-right: 5%;
                 border-style:solid;
-	background-color: #FF7ACF}
+                background-color: #000000;
+              
+                }
+            
+
 p{
   font-size:20px;
-	font-weight: bold;
+	
 }
+#body2L{ text-align:center;
+                padding-left: 5%;
+                padding-right: 5%;
+                border-style:solid;
+                background-color: #000000;
+              }
+             #body2R{ text-align:center;
+                padding-left: 5%;
+                padding-right: 5%;
+                border-style:solid;
+                background-color: #000000 ;
+                }
